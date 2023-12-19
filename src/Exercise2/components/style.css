@@ -1,0 +1,63 @@
+/* Header.css */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    width: 500px;
+    /* background-color: #333; */
+    color: white;
+  }
+  
+  .header__iconButton {
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .header__logo {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+    cursor: pointer;
+  }
+  
+  /* Card.css */
+  .swipe {
+    position: absolute;
+  }
+  
+  .card {
+    position: relative;
+    height: 90%;
+    background-size: cover;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 20px;
+    color: white;
+    font-size: 1.5rem;
+  }
+  
+  /* SwipeButtons.css */
+  .swipeButtons {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .icons-action {
+    height: 50px;
+    width: 50px;
+    margin: 0 18px;
+    border-radius: 99px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-size: 0.8rem;
+  }
