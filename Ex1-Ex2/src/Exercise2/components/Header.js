@@ -2,7 +2,7 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faUser, faComment } from "@fortawesome/free-solid-svg-icons";
-import "./style.css"; // Import the CSS file for styling
+import "./style.css"; 
 
 function Header() {
   return (
